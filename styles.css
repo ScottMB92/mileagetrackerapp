@@ -1,0 +1,118 @@
+h1,
+p {
+  text-align: center;
+}
+h1 {
+  padding: 20px;
+  color: white;
+}
+p {
+  font-size: 15px;
+  color: white;
+  top: -42px;
+  margin-top: -10px;
+}
+.logo{
+  display: block;
+  position: absolute;
+  margin-top: 17px;
+}
+body {
+  background-color: white;
+}
+.header {
+  padding-bottom: 10px;
+}
+.container {
+  min-width: 800px;
+  max-width: 800px;
+  top: 50px;
+  bottom: 50px;
+  margin: 0 auto;
+  padding: 12px 25px 50px;
+  border-radius: 25px;
+  background-color: #f3a3a4;
+  position: relative;
+  box-shadow: 0 10px 15px 2px rgba(0, 0, 0, 0.1);
+}
+form {
+  display: flex;
+  width: 100%;
+}
+form input, form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+  flex: 1;
+}
+ul {
+  padding: 0;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+.list-group-item {
+  padding: 0.75rem 1.25rem;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.34) !important;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+}
+.list-group,
+.list-group-item {
+  background: 0 0 !important;
+}
+.add-employee {
+  background: #0dabf3;
+  margin-left: 5px;
+}
+.delete-employee{
+  background-color: red;
+  border-color: red;
+  border-radius: 5px;
+  float: right;
+  font-size: 16px;
+}
+.delete-employee:hover {
+  background-color: rgb(134, 5, 5);
+  border-color: rgb(134, 5, 5);
+  box-shadow: none !important;
+  float: right;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.delete-employee:active {
+  background-color: rgb(117, 5, 5) !important;
+  border-color: rgb(117, 5, 5) !important;
+  box-shadow: none !important;
+  float: right;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: none;
+}
+.delete-employee:focus {
+  background-color: rgb(117, 5, 5) !important;
+  border-color: rgb(117, 5, 5) !important;
+  box-shadow: none !important;
+  float: right;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: none;
+}
+.records-text{
+  font-weight: bold;
+  float: left;
+  margin-top: 5px;
+}
+.delete-all,
+.delete-all:hover {
+  color: red;
+  font-weight: bold;
+  float: right;
+  padding-bottom: 75px;
+  margin-right: -10px;
+}
