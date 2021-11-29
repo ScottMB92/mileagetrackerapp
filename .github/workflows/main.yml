@@ -6,7 +6,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      # Install NPM dependencies, cache them correctly
-      # and run all Cypress tests
-      - name: Cypress run
+      - name: Run app test
         uses: cypress-io/github-action@v2
+        with:
+          start: npm start
+          wait-on: 'http://localhost:3000'
+          config: baseUrl=https://localhost:3000
